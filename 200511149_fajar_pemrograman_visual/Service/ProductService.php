@@ -32,8 +32,7 @@ namespace Service {
             system("clear");
 
             echo "====================" . PHP_EOL;
-            echo "DAFTAR PRODUCT" . PHP_EOL;
-            echo "Created By Chandra Bachtiar - 200511151" . PHP_EOL;
+            echo "PRODUCT LIST" . PHP_EOL;
             echo "====================" . PHP_EOL;
             $product = $this->productRepository->findAll();
             if (empty($product)) {
